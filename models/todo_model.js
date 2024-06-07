@@ -4,7 +4,7 @@ const UserModel = require("../models/user_model");
 const { Schema } = mongoose;
 
 const todoScheme = new Schema({
-  UserId: {
+  userId: {
     type: Schema.Types.ObjectId,
     ref: UserModel.modelName,
   },
